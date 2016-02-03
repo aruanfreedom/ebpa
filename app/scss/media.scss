@@ -1,0 +1,276 @@
+            @media only screen and (min-width: 1920px) {
+                nav {
+                    .center-link {
+                        padding-left: 14%;
+                    }
+                    .top-bar-section .center-link li a {
+                        padding: 0 15px;
+                        font-size: 1.1em;
+                    }
+                }
+                .contain-to-grid .top-bar {
+                    max-width: 76.1em;
+                }
+                #participation {
+                    h2 {
+                        padding: 40px 0;
+                    }
+                }
+            }
+            
+            @media only screen and (max-width: 1366px) {
+                #top-block {
+                    .description {
+                        position: absolute;
+                        right: 67px;
+                        top: 90px;
+                        width: 40%;
+                    }
+                    p {
+                        font-size: 1em;
+                    }
+                    #bg-orange-logo {
+                        width: 64.3%;
+                    }
+                    footer {
+                        position: absolute;
+                        bottom: 5px;
+                        right: 67px;
+                        width: 40%;
+                    }
+                }
+                #thematic {
+                    .icon {
+                        &.icon-battery {
+                            margin-top: 135px;
+                        }
+                        &.icon-energy {
+                            margin-top: 140px;
+                        }
+                        &.icon-oil {
+                            background: url("../img/icons/areas-icons-01.png") left repeat-x #7ba42c;
+                            background-position: -401px;
+                            margin: 170px auto;
+                            margin-bottom: 390px;
+                        }
+                    }
+                }
+                #participation {
+                    h2 {
+                        padding: 40px 0;
+                    }
+                    .button {
+                        width: 75%;
+                    }
+                }
+                .contain-to-grid .top-bar {
+                    max-width: 53.1em;
+                }
+                #footer {
+                    #contact {
+                        ul {
+                            padding-top: 47%;
+                            padding-left: 20px;
+                        }
+                    }
+                }
+            }
+            
+            @media only screen and (max-width: 980px) {
+                nav {
+                    .top-bar {
+                        height: 60px;
+                    }
+                    .center-link {
+                        padding: 0;
+                    }
+                }
+                #top-block {
+                    #bg-orange-logo {
+                        width: 91.3%;
+                    }
+                }
+                #participation {
+                    .button {
+                        width: 100%;
+                    }
+                }
+                #thematic {
+                    .vertical-line {
+                        top: 118px;
+                    }
+                    .icon {
+                        background: url("../img/icons/areas-icons-01.png") center center repeat-x #7ba42c;
+                        height: 70px;
+                        width: 70px;
+                        &.icon-light {
+                            background-position: -14px;
+                            margin-top: 51px;
+                        }
+                        &.icon-statistics {
+                            background: url("../img/icons/areas-icons-01.png") center center repeat-x #da782a;
+                            background-position: -112px;
+                            margin-top: 272px;
+                        }
+                        &.icon-battery {
+                            margin-top: 215px;
+                            background-position: -215px;
+                        }
+                        &.icon-energy {
+                            margin-top: 270px;
+                            background-position: -316px;
+                        }
+                        &.icon-oil {
+                            background: url("../img/icons/areas-icons-01.png") left repeat-x #7ba42c;
+                            background-position: -414px;
+                            margin: 222px auto;
+                            margin-bottom: 563px;
+                        }
+                    }
+                }
+                #international {
+                    ul {
+                        li {
+                            .img-color {
+                                margin-top: -159px;
+                            }
+                        }
+                    }
+                }
+                #footer{
+                	#contact{
+                		width: 78%;
+                	}
+                }
+                #app-form {
+                    #white {
+                        #form {
+                            padding-top: 150px;
+                            form {
+                                .right {
+                                    float: right !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            @media only screen and (max-width: 800px) {}
+            
+            @media only screen and (max-width: 768px) {}
+            
+            @media only screen and (max-width: 360px) {
+                header {
+                    height: 60px;
+                    nav {
+                        height: 60px;
+                        width: 100%;
+                        left: 0;
+                        position: fixed;
+                        top: 0;
+                        .top-bar-section {
+                            ul {
+                                padding-bottom: 15px;
+                            }
+                        }
+                        .center-link {
+                            padding-left: 0;
+                        }
+                        .icon-menu {
+                            &.twitter {
+                                margin-left: 15px;
+                            }
+                            &.facebook {
+                                margin-left: 15px;
+                            }
+                        }
+                        .right {
+                            float: none !important;
+                        }
+                    }
+                }
+                #top-block {
+                    background: url("../img/bg-orange.jpg") no-repeat right;
+                    #bg-orange-logo {
+                        background: none;
+                        position: relative;
+                        width: 100%;
+                        .description {
+                            position: absolute;
+                            right: 0;
+                            top: 90px;
+                            width: 100%;
+                        }
+                    }
+                    footer {
+                        right: 0;
+                        width: 100%;
+                    }
+                }
+                #thematic {
+                    .line {
+                        &.my-left {
+                            &.block2 {
+                                padding-top: 0;
+                            }
+                            &.block4 {
+                                padding-top: 0;
+                            }
+                        }
+                        &.my-right {
+                            &.block3 {
+                                padding-top: 0;
+                            }
+                            &.block5 {
+                                padding-top: 0;
+                            }
+                        }
+                    }
+                }
+                #international {
+                    ul {
+                        li {
+                            .img-color {
+                                margin-top: -168px;
+                            }
+                        }
+                    }
+                }
+                #footer {
+                    #contact {
+                        background: none;
+                        ul {
+                            padding-top: 0;
+                        }
+                    }
+                }
+                .max-320 {
+                    &.unvisible {
+                        display: none;
+                    }
+                }
+                #app-form {
+                    #white {
+                        #form {
+                            padding-top: 150px;
+                            form {
+                                label {
+                                    &.right {
+                                        text-align: left;
+                                    }
+                                }
+                                .checkbox {
+                                    text-align: center;
+                                    padding-top: 0;
+                                }
+                                .right {
+                                    float: left !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            
+            @media only screen and (max-width: 320px) {}
